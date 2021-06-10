@@ -1,4 +1,9 @@
 # 3-4 【组件化】初识 React 函数式组件
+利用假数据循环输出几个机器人画册
+实现效果如图：
+![image](https://user-images.githubusercontent.com/70147063/121546578-f9575c80-ca3d-11eb-9f46-05c5866cc099.png)
+
+
 
 ## .json 假数据文件
 
