@@ -1,31 +1,37 @@
-# 3-8【资源配置】加载媒体与字体文件
+# 3-4 【组件化】初识 React 函数式组件
 
-效果如图：
+## .json 假数据文件
 
-![image-20210611095447268](https://i.loli.net/2021/06/11/lK9rp2xXM8gJWce.png)
+1. 在`mockdata`文件夹下的`robots.json`文件中存入机器人假数据信息，里面有
 
+2. 引入 json 文件时，`tsconfig.json`需添加以下配置：
 
-
-## 1. 新建 assets 文件夹存放媒体资源文件
-
-
-
-## 2. 引用 logo
-
-
-
-## 3.引入字体——全局样式
-
-因为字体是全局样式，所以需在`index.css`文件中引入：
-
-```css
-@font-face {
-  font-family: 'Slidefu';
-  src: local('Slidefu'), url(./assets/fonts/Slidefu-Regulat-2.ttf) format('truetype')
-}
-```
-
-然后就可以在其他 css 文件中使用该字体
+    ```json
+    	"moduleResolution": "node",
+    	"resolveJsonModule": true,
+    ```
 
 
 
+## 创建 函数式组件 Robot
+
+1. 使用 props 传递组件间数据
+2. 接口 Interface 定义父组件需要给当前组件传入的数据
+
+
+
+## 在 App.tsx 中使用组件 Robot
+
+1. 在函数组件`App`中循环输出`robots`假数据传给组件`Robot`
+
+    ```tsx
+      return (
+      	<ul>
+        	{robots.map((r) => (
+          	<Robot id={r.id} email={r.email} name={r.name} />
+          ))}
+        </ul>
+      )
+    ```
+
+    
