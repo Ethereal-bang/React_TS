@@ -1,14 +1,37 @@
-# 3-9【组件化】创建 class 类组件
+# 3-4 【组件化】初识 React 函数式组件
 
-创建一个简单的购物车
+## .json 假数据文件
 
-效果如下：
+1. 在`mockdata`文件夹下的`robots.json`文件中存入机器人假数据信息，里面有
 
-![image-20210611112300502](https://i.loli.net/2021/06/11/3VXZtoH7bAk9SgY.png)
+2. 引入 json 文件时，`tsconfig.json`需添加以下配置：
 
-## 1. 创建一个购物车下拉菜单
+    ```json
+    	"moduleResolution": "node",
+    	"resolveJsonModule": true,
+    ```
 
-## 2. 通过点击事件控制下拉菜单的显示
 
-+ React 的行内样式
-+ state 管理组件内状态
+
+## 创建 函数式组件 Robot
+
+1. 使用 props 传递组件间数据
+2. 接口 Interface 定义父组件需要给当前组件传入的数据
+
+
+
+## 在 App.tsx 中使用组件 Robot
+
+1. 在函数组件`App`中循环输出`robots`假数据传给组件`Robot`
+
+    ```tsx
+      return (
+      	<ul>
+        	{robots.map((r) => (
+          	<Robot id={r.id} email={r.email} name={r.name} />
+          ))}
+        </ul>
+      )
+    ```
+
+    
