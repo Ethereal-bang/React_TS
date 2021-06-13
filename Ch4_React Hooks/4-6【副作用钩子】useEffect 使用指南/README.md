@@ -4,11 +4,11 @@
 
 显示效果：
 
-<img src="C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20210612225921525.png" alt="image-20210612225921525" style="zoom: 33%;" />
+![image-20210613110021169](https://i.loli.net/2021/06/13/O3hXCwLvJPuKt2k.png)
 
 异常情况：
 
-<img src="C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20210612225330806.png" alt="image-20210612225330806" style="zoom:33%;" />
+![image-20210613110047472](https://i.loli.net/2021/06/13/v5psaAwUKMXcBS6.png)
 
 
 
@@ -16,7 +16,7 @@
 
 以下面这种方式写入`async`而不是直接`useEffect(async () => {})`是因为会报以下错误：
 
-<img src="C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20210612220910121.png" alt="image-20210612220910121" style="zoom: 50%;" />
+![image-20210613110119401](https://i.loli.net/2021/06/13/olsJvxZP9NR4iWV.png)
 
 因此将该异步逻辑封装进函数`fetchData`里：
 
