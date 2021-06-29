@@ -1,6 +1,6 @@
 # 5-6【主页开发】走马灯与侧边栏多重菜单
 
-显示效果：![image-20210628173053862](https://i.loli.net/2021/06/28/skpXQ2lhIdiJT6H.png)
+显示效果：![image-20210629143438218](https://i.loli.net/2021/06/29/B7UjrXNJ4nievhP.png)
 
 
 
