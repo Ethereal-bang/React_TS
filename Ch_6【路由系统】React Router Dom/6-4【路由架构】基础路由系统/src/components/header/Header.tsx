@@ -25,7 +25,7 @@ export const Header: React.FC = () => {
           </Dropdown.Button>
           <Button.Group className={styles["button-group"]}>
             <Button>注册</Button>
-            <Button>登陆</Button>
+            <Button>登录</Button>
           </Button.Group>
         </div>
       </div>
