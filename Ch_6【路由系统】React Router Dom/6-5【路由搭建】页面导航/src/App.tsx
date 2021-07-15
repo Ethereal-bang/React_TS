@@ -10,7 +10,7 @@ function App() {
                 <Switch>
                     <Route exact path='/' component={HomePage} />
                     <Route path='/signIn' component={SignInpage} />
-                    <Route path='/signIn' component={RegisterPage} />
+                    <Route path='/register' component={RegisterPage} />
                     <Route path='/detail/:touristRouteId' component={DetailPage} />
                     <Route render={() => <h1>404 not found 页面去火星了！</h1>} />
                 </Switch>
