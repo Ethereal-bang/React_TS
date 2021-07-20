@@ -1,6 +1,6 @@
 # 7-3【创建 state】createStore
 
-完成 store 里的语言配置数据。
+创建项目的数据中心 store，创建语言配置处理系统`languageReducer`，在`languageReducer`中初始化 store 中的语言配置数据。
 
 
 
@@ -16,7 +16,7 @@
 
 ## Redux 工作流
 
-<img src="C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20210719161201719.png" alt="image-20210719161201719" style="zoom: 67%;" />
+<img src="https://i.loli.net/2021/07/20/oIJEqA63R5MFQVt.png" alt="image-20210719161201719" style="zoom: 67%;" />
 
 
 
