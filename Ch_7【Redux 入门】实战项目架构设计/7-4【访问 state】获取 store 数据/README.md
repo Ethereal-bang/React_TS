@@ -3,7 +3,11 @@
 使用类组件`Header`学习如何访问 state，提取并订阅 store 中的数据。
 
 
+## Redux 工作流
 
+<img src="https://i.loli.net/2021/07/20/kX5iYdTGFAruMwc.png" alt="image-20210720165427552" style="zoom:50%;" />
+
+## 
 
 
 ## 一、动态生成语言选择的下拉菜单
