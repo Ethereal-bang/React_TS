@@ -80,7 +80,8 @@
 2. 实现点击“注册”进入注册页面；点击“登录”进入登录页面。
 
     ```tsx
-    <Button onClick={() => {history.push("register")}}>注册</Button>               <Button onClick={() => {history.push("signIn")}}>登录</Button>
+    <Button onClick={() => {history.push("register")}}>注册</Button>               
+    <Button onClick={() => {history.push("signIn")}}>登录</Button>
     ```
 
     测试：`push`的参数如果改为`localhost:3000/register`，url 切换就会变为：
