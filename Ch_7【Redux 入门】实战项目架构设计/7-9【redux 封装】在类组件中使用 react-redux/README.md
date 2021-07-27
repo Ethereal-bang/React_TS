@@ -47,7 +47,7 @@
 
 
 
-## 二、使用
+## 二、react-redux 基本语法
 
 1. `connect()`连接 store
 
