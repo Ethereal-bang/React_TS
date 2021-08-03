@@ -74,7 +74,7 @@ export const DetailPage: React.FC<RouteComponentProps<MatchParams>> = () => {
             {/* 锚点菜单 */}
             <div className={styles['product-detail-anchor']}></div>
             {/* 产品特色 */}
-            <div className={styles['product-detail-container']}></div>
+            <div id="feature" className={styles['product-detail-container']}></div>
             {/* 费用 */}
             <div id='fees' className={styles['product-detail-container']}></div>
             {/* 预订须知 */}
