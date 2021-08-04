@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { RouteComponentProps, useParams } from "react-router-dom";
 import axios from "axios";
-import { Spin, Row, Col } from "antd";
+import { Spin, Row, Col, DatePicker, Space } from "antd";
 import styles from "./DetailPage.module.css";
 import { Header, Footer, ProductIntro } from "../../components";
-import { DatePicker, Space } from "antd";
 
 const { RangePicker } = DatePicker;
 
