@@ -1,7 +1,8 @@
 # 9-4【`detailPage`搭建 2】页面框架、详情与日期选择
 
 上一节使用 MVC 的架构通过 api 取得数据、完成页面骨架、以及页面第一个组件。这一节接着完成剩下的部分。
-
+最终效果：
+![image-20210805105952492](../https:cdn.jsdelivr.net/gh/Ethereal-bang/Images/Typora_Images/20210805105959.png)![image-20210805110030507](../https:cdn.jsdelivr.net/gh/Ethereal-bang/Images/Typora_Images/20210805110030.png)
 
 
 ## 一、完成产品特色等组件
