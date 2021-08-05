@@ -22,7 +22,7 @@ export const DetailPage: React.FC<RouteComponentProps<MatchParams>> = () => {
             setLoading(true)
             try {
                 const { data } = await axios.get(
-                    'http://123.56.149.216:8080/api/touristRoutes/${touristRouteId}'
+                    `http://123.56.149.216:8080/api/touristRoutes/${touristRouteId}`
                 );
                 setProduct(data);
                 setLoading(false);
