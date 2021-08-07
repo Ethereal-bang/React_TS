@@ -4,7 +4,7 @@
 
 不管是否使用 RTK，从原理上来说都是一样的。异步操作都会使用 redux-thunk 或类似 thunk 的**中间件**来处理，异步 Action 都会被定义为 thunk action，以返回异步函数的形式来一层一层处理 action。对于使用了 RTK 的项目来说，thunk action 做了一层封装，定义了简单的 api 并使用一定语法结构包装起来
 
-因为在第 8 章已详细讲解 Thunk 的原理，这一节将专注于**如何在 rtk 使用 thunk 这个角度**
+因为在第 8 章已详细讲解 Thunk 的原理，这一节将专注于**如何在 rtk 使用 thunk **这个角度
 
 
 
