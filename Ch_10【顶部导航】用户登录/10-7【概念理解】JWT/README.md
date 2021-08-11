@@ -38,7 +38,7 @@ JWT 彻底改变了用户授权与认证的过程
 
 ## 有状态登录 VS 无状态登录
 
-![image-20210811090221410](https:cdn.jsdelivr.net/gh/Ethereal-bang/Images/Typora_Images/20210811090228.png)
+![image-20210811090221410](https://github.com/Ethereal-bang/Images/blob/main/Typora_Images/20210811091331.png)
 
 ![image-20210811090328888](https://github.com/Ethereal-bang/Images/blob/main/Typora_Images/20210811090328.png)
 
