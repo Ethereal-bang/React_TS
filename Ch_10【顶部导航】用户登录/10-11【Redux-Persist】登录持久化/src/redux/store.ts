@@ -33,4 +33,8 @@ const persistor = persistStore(store);
 
 export type RootState = ReturnType<typeof store.getState>
 
-export default { store, persistor };
+const rootStore = {
+    store, 
+    persistor,
+}
+export default rootStore;
