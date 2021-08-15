@@ -1,6 +1,6 @@
 # 10-11【Redux-Persist】登录持久化
 
-用户登录后只要刷新或打开新页面，Redux store 就会被重置，jwt token 会被清空，登录就失效了。所以需要把 Token 保存起来，下次用户打开网站时可直接登录。
+用户登录后只要刷新或打开新页面，Redux store 就会被重置，jwt token 会被清空，登录就失效了。所以需要把 Token 保存起来，下次用户打开网站时可直接登录；多个默认导出的方式。
 
 
 
@@ -123,4 +123,22 @@
 ## 三、测试持久化
 
 打开网站点击登录，重启浏览器，用户依然是登录状态。
+
+网站警告："Assign object to a variable before exporting as module default  import/no-anonymous-default-export"，源于此处导出语句：`export default { store, persistor }`。
+
+可以改为：
+
+```typescript
+const rootStore = {
+    store, 
+    persistor,
+}
+export default rootStore;
+```
+
+这样改后依然可以在引用中：
+
+![image-20210815100031544](https://gitee.com/ethereal-bang/images/raw/master/20210815100031.png)
+
+参考自[get rid of the warning import/no-anonymous-default-export in React——Stack overflow](https://stackoverflow.com/questions/64729264/how-can-i-get-rid-of-the-warning-import-no-anonymous-default-export-in-react)
 
