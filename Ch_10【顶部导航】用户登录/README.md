@@ -13,3 +13,5 @@
 + [10-10](https://github.com/Ethereal-bang/React_TS/tree/main/Ch_10%E3%80%90%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E3%80%91%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/10-10%E3%80%90%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2%E3%80%91signOut%20%E4%B8%9A%E5%8A%A1%E5%A4%84%E7%90%86)：
   登录后更新`Header`，显示用户信息；完成登出的工作。
   新知识点如何通过解码 JWT token 取得用户数据。
++ [10-11](https://github.com/Ethereal-bang/React_TS/tree/main/Ch_10%E3%80%90%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E3%80%91%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/10-11%E3%80%90Redux-Persist%E3%80%91%E7%99%BB%E5%BD%95%E6%8C%81%E4%B9%85%E5%8C%96)：
+  持久化：把 Token 保存起来，下次用户打开网站时可直接登录；多个默认导出的方式。
