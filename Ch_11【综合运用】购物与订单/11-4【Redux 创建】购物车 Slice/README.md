@@ -28,7 +28,7 @@ export const addShoppingCartItem = createAsyncThunk(
             }, 
             {
                 headers: {
-                    Authorization: `bearer &{jwt}`
+                    Authorization: `bearer ${parameters.jwt}`
                 }
             }
         );
@@ -49,7 +49,7 @@ export const clearShoppingCartItem = createAsyncThunk(
             `http://123.56.149.216:8080/api/shoppingCart/items/(${parameters.itemIds.join(",")})`,
             {
                 headers: {
-                    Authorization: `bearer &{jwt}`
+                    Authorization: `bearer ${parameters.jwt}`
                 }
             }
         );
