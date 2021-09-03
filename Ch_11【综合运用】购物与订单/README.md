@@ -2,3 +2,6 @@
   实现一个私有路由，所有私有路由下页面都只允许登录用户才能打开。
 + [11-3](https://github.com/Ethereal-bang/React_TS/tree/main/Ch_11%E3%80%90%E7%BB%BC%E5%90%88%E8%BF%90%E7%94%A8%E3%80%91%E8%B4%AD%E7%89%A9%E4%B8%8E%E8%AE%A2%E5%8D%95/11-3%E3%80%90UI%20%E6%90%AD%E5%BB%BA%E3%80%91%E8%B4%AD%E7%89%A9%E8%BD%A6%E9%A1%B5%E9%9D%A2%E5%88%9D%E5%A7%8B%E5%8C%96)：
   完成购物车页面初始化及 UI 组件搭建。
++ [11-4](https://github.com/Ethereal-bang/React_TS/tree/main/Ch_11%E3%80%90%E7%BB%BC%E5%90%88%E8%BF%90%E7%94%A8%E3%80%91%E8%B4%AD%E7%89%A9%E4%B8%8E%E8%AE%A2%E5%8D%95/11-4%E3%80%90Redux%20%E5%88%9B%E5%BB%BA%E3%80%91%E8%B4%AD%E7%89%A9%E8%BD%A6%20Slice)：
+  使用 RTK 完成购物车 redux store 搭建。  
+
